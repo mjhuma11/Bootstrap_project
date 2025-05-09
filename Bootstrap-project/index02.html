@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INDEX</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+   <!-- Bootstrap 5 Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
+    <div class="container">
+        <!-- Brand Logo -->
+        <a class="navbar-brand" href="#">
+            <img src="assets/image/logo02.jpg" alt="Logo" width="80" class="rounded-circle shadow-sm">
+        </a>
+
+        <!-- Toggle Button for Mobile -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar Links -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+
+                <!-- Services Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Services
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                        <li><a class="dropdown-item" href="#tab1">Design & Development</a></li>
+                        <li><a class="dropdown-item" href="#tab2">Power Plant Construction</a></li>
+                        <li><a class="dropdown-item" href="#tab3">Supply Ready Mix Concrete</a></li>
+                        <li><a class="dropdown-item" href="#tab4">Pilling-Foundation</a></li>
+                        <li><a class="dropdown-item" href="#tab5">Consultancy</a></li>
+                    </ul>
+                </li>
+
+                <!-- Projects Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="projectsDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Projects
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="projectsDropdown">
+                        <li><a class="dropdown-item" href="#">Badsha Group (Completed)</a></li>
+                        <li><a class="dropdown-item" href="#">Edison Group (Completed)</a></li>
+                        <li><a class="dropdown-item" href="#">Akisha Group (Ongoing)</a></li>
+                        <li><a class="dropdown-item" href="#">Suchona Group (Ongoing)</a></li>
+                        <li><a class="dropdown-item" href="#">NT Group (Upcoming)</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+
+            <!-- Search Form -->
+            <form class="d-flex ms-3">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+</nav>
+
+    
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="assets/image/img06.jpeg" class="d-block w-100 h-80px" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>WELCOME</h1>
+                    <p>MODERN WAREHOUSE & INDUSTRIAL BULDING SOLUTION</p>
+                    <div class="button">
+                        <button class="btn btn-bg-warning" type="submit">WHO WE ARE</button>
+                    </div>
+
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="assets/image/hero-carousel-2.jpg" class="d-block w-100 h-80px" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>WELCOME</h1>
+                    <p>MODERN WAREHOUSE & INDUSTRIAL BULDING SOLUTION</p>
+                    <div class="button">
+                        <button class="btn btn-bg-warning" type="submit">WHO WE ARE</button>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="carousel-item">
+                <img src="assets/image/hero-carousel-5.jpg" class="d-block w-100 h-80px" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>WELCOME</h1>
+                    <p>MODERN WAREHOUSE & INDUSTRIAL BULDING SOLUTION</p>
+                    <div class="button">
+                        <button class="btn btn-bg-warning" type="submit">WHO WE ARE</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <!-- Sidebar Navigation -->
+            <div class="col-md-3 col-lg-2 sidebar">
+                <h3 class="text-center"><u>What we do?</u></h3>
+                <ul class="nav flex-column nav-underline" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" data-bs-toggle="tab" href="#tab1" role="tab" aria-controls="tab1"
+                            aria-selected="true">Design & Development</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" href="#tab2" role="tab" aria-controls="tab2"
+                            aria-selected="false">Power Plant Construction</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" href="#tab3" role="tab" aria-controls="tab3"
+                            aria-selected="false">Supply Ready Mix Concrete</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" href="#tab4" role="tab" aria-controls="tab4"
+                            aria-selected="false">Piling Foundation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" href="#tab5" role="tab" aria-controls="tab5"
+                            aria-selected="false">Consultancy</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Tab Content -->
+            <div class="col-md-9 col-lg-10 homep">
+                <div class="tab-content p-3 border rounded">
+                    <div class="tab-pane fade show active" id="tab1" role="tabpanel" aria-labelledby="tab1">
+                        <h2>Design & Development</h2>
+                        <figure class="figure float-start me-3 w-50">
+                            <img src="assets/image/img09.jpeg" class="cultureimg figure-img img-fluid rounded" alt="">
+                            <figcaption>Design & Development</figcaption>
+                        </figure>
+                        <p>
+                        <h4>MASTER PLANNING</h4>
+                        A feasibility study is an analysis used in measuring the ability and likelihood to complete a
+                        project successfully including all relevant factors
+                        Financial Budgeting is the process of creating a plan to spend your money.
+                        Site Massing is a term in architecture which refers to the perception of the general shape and
+                        form as well as size of a building
+                        Land use review consists of the review and approval of all land use proposals, including
+                        annexation, site review, use review, and preliminary plat.
+                        Building Performance Evaluation (BPE) is a tested and defined method that can be adopted to
+                        measure and monitor building performance before, during and after building projects.
+                        Program management is the process of managing several related projects, often with the intention.<br><br>
+                        <ul>
+                            <h4>Design development</h4>
+
+                            <li>Design firm Representatives, bidding & selection is an offer to set a price by an
+                                individual or business firm for a product or service or a demand that something be done.
+                            </li>
+                            <li>A design schedule is an estimate of the schedule for a particular action. Design
+                                schedule estimates for individual actions are rolled up into design schedule estimates
+                                for a project.</li>
+                            <li>Design oversight & coordination covers Contaminated soil excavation, Capping, Lead
+                                stabilization, Bioremediation, Soil vapor extraction etc.</li>
+                            <li>Detailed end-user reviews, the end user stands in contrast to users who support or
+                                maintain the product.</li>
+                            <li>The design documentation provides written documentation of the design factors and the
+                                choices the architect has made in the design to satisfy the business and technical
+                                requirements.</li>
+                        </ul>
+
+                        </p>
+                    </div>
+                    <div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="tab2">
+                        <h2>Power Plant Construction</h2>
+                        <p>
+                        <figure class="figure m-3" style="float: left; width: 200px;"><img
+                                src="assets/image/nuclear-powerplant.jpg" width="450px"
+                                class="cultureimg figure-img img-fluid rounded" alt="">
+                            <figcaption>A nuclear power plant in Bangladesh</figcaption>
+                        </figure>
+                        <figure class="figure m-3" style="float: right; width: 300px;"><img
+                                src="assets/image/powerplant.jpg" width="300px"
+                                class="cultureimg figure-img img-fluid rounded" alt="">
+                            <figcaption>Power Plant</figcaption>
+                        </figure>
+                        Our scope of delivery and services extends from the design and construction planning, through
+                        the handling of all earthwork, stonework and finishing works, to the turn-key construction of
+                        the power plant infrastructural buildings.
+                        The extensive in-house expertise of our Technical Processing and Planning, Work Preparation,
+                        Engineering Surveying, Formwork and Scaffolding, and Building Materials. Technology departments
+                        has been and still remains the consistent foundation for achieving the decisive technical
+                        advantage.
+                        With our own high standards of quality, adherence to schedules and project management, Naif
+                        Engineering & Builders Ltd has always proven to be a reliable partner.
+                        </p>
+                    </div>
+                    <div class="tab-pane fade" id="tab3">
+                        <h2>Suply Ready Mix Concrete</h2>
+                        <p>Naif Engineering & Builders Ltd have a variety of high volume ready-mix concrete plants
+                            capable of producing in excess of 1000m3 each day. These plants are strategically located
+                            and are equipped with wet batch facilities offering customers convenience of collection or
+                            efficient high volume delivery. The choice is yours!
+
+                            Naif Engineering & Builders Ltd operate a modern fleet of company owned 8m3 truck mixers to
+                            ensure reliable and consistent supply of ready mixed concrete throughout the country.
+
+                        <figure class="figure m-3" style="float: left; width: 450px;"><img
+                                src="assets/image/ready-mix-concrete.jpg" width="800px"
+                                class="cultureimg figure-img img-fluid rounded" alt="">
+                            <figcaption>Ready Mix Concrete</figcaption>
+                        </figure> The cinema of Bangladesh dates back to 1898 when films began screening at the Crown
+                        Theatre in
+                        Dhaka. The first bioscope in the subcontinent was established in Dhaka that year. The Dhaka
+                        Nawab Family
+                        patronized the production of several silent films in the 1920s and 30s. In 1931, the East Bengal
+                        Cinematograph Society released the first full-length feature film in Bangladesh, titled the Last
+                        Kiss.
+                        The first feature film in East Pakistan, Mukh O Mukhosh, was released in 1956. During the 1960s,
+                        25-30
+                        films were produced annually in Dhaka. By the 2000s, Bangladesh produced 80-100 films a year.
+                        While the
+                        Bangladeshi film industry has achieved limited commercial success; the country has produced
+                        notable
+                        </p>
+                    </div>
+                    <div class="tab-pane fade" id="tab4" role="tabpanel" aria-labelledby="tab4">
+                        <h2>Piling Foundation</h2>
+                        <p>
+                            Designing and constructing a solid foundation for buildings is arguably the most important
+                            aspect of any building project. Without the right foundation, the whole structure built on
+                            top will simply not last for very long and will in the long run, cost even more to put
+                            right.
+                        <figure class="figure m-3" style="float: right; width: 450px;"><img
+                                src="assets/image/img07.webp" width="450px"
+                                class="cultureimg figure-img img-fluid rounded" alt="">
+                            <figcaption>Piling Foundation</figcaption>
+                        </figure>
+                        Naif Engineering & Builders Ltd has entered into the piling business equipped with modern
+                        machinery and vast capabilities. The company currently owns rotary drilling rigs, several
+                        percussion drilling rigs and related equipment as well as a large fleet of cranes, excavators,
+                        loaders, and dump trucks to support operations of pilling rigs.
+
+                        We are engaged in offering services related to Piling Construction. Piling, in building
+                        construction, a post like foundation member used from prehistoric times. Piling is an
+                        unavoidable activity for soil improvement operations in concrete structures such as fly over,
+                        bridges, industrial structures & multi-storied buildings. We hold proficiency in carrying out
+                        all kinds of construction & development works, including erection of buildings & structures or
+                        for roads, dams, bridges and others.
+                        </p>
+                    </div>
+                    <div class="tab-pane fade" id="tab5" role="tabpanel" aria-labelledby="tab5">
+                        <h2>Consultancy</h2>
+
+                        <p>
+                        <h4>Planning</h4>
+                        Effective planning is an essential part of the ongoing project management process. The
+                        environmental impact of a job, its scheduling, budgeting, site safety, availability and
+                        delivery of quality materials, personnel, logistics, as well as inconvenience to the general
+                        public, compliance with local and national standards – these things and countless more all
+                        have to be considered.
+                        <figure class="figure m-3" style="float: right; width: 450px;">
+                            <img src="assets/image/Consulting-Services.jpg" width="450px"
+                                class="cultureimg figure-img img-fluid rounded" alt="">
+                            <figcaption>Consultancy</figcaption>
+                        </figure>
+                        
+                        We also have a range of services dedicated just to materials: chemical and physical testing of
+                        the durability of materials and materials certification. For example, if a product is labeled as
+                        meeting a certain standard, how can you be sure that it truly does? We can tell you.
+                        e also have a range of services dedicated just to materials: chemical and physical testing of
+                        the durability of materials and materials certification. For example, if a product is labeled as
+                        meeting a certain standard, how can you be sure that it truly does? We can tell you.
+                        e also have a range of services dedicated just to materials: chemical and physical testing of
+                        the durability of materials and materials certification. For example, if a product is labeled as
+                        meeting a certain standard, how can you be sure that it truly does? We can tell you.e also have a range of services dedicated just to materials: chemical and physical testing of
+                        the durability of materials and materials certification. For example, if a product is labeled as
+                        meeting a certain standard, how can you be sure that it truly does? We can tell you.
+                        
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <h1>OUR PROJECTS</h1>
+    </div>
+    <section class="image-grid">
+
+        <div class="grid-item">
+            <figure>
+                <a href="details.html">
+                    <img src="assets/image/img07.webp" alt="Fashion Item 1">
+                    <figcaption>Complete Project</figcaption>
+                </a>
+            </figure>
+        </div>
+        <div class="grid-item">
+            <figure>
+                <a href="details.html">
+                    <img src="assets/image/img06.jpeg" alt="Fashion Item 1">
+                    <figcaption>Complete Project-2</figcaption>
+                </a>
+            </figure>
+        </div>
+        <div class="grid-item">
+            <figure>
+                <a href="details.html">
+                    <img src="assets/image/powerplant.jpg" alt="Fashion Item 1">
+                    <figcaption>Complete Project-3</figcaption>
+                </a>
+            </figure>
+        </div>
+        <div class="grid-item">
+            <figure>
+                <a href="details.html">
+                    <img src="assets/image/bg-img.jpg" alt="Fashion Item 1">
+                    <figcaption>Complete Project-4</figcaption>
+                </a>
+            </figure>
+        </div>
+        <div class="grid-item">
+            <figure>
+                <a href="details.html">
+                    <img src="assets/image/hero-carousel-2.jpg" alt="Fashion Item 1">
+                    <figcaption>Complete Project-5</figcaption>
+                </a>
+            </figure>
+        </div>
+        <div class="grid-item">
+            <figure>
+                <a href="details.html">
+                    <img src="assets/image/hero-carousel-5.jpg" alt="Fashion Item 1">
+                    <figcaption>On-going Project</figcaption>
+                </a>
+            </figure>
+        </div>
+        <div class="grid-item">
+            <figure>
+                <a href="details.html">
+                    <img src="assets/image/ready-mix-concrete.jpg" alt="Fashion Item 1">
+                    <figcaption>On-going Project</figcaption>
+                </a>
+            </figure>
+        </div>
+        <div class="grid-item">
+            <figure>
+                <a href="details.html">
+                    <img src="assets/image/construction-zoom-background-6.jpg" alt="Fashion Item 1">
+                    <figcaption>UP Comming</figcaption>
+                </a>
+            </figure>
+        </div>
+        <div class="grid-item">
+            <figure>
+                <a href="details.html">
+                    <img src="assets/image/img07.webp" alt="Fashion Item 1">
+                    <figcaption>Complete Project</figcaption>
+                </a>
+            </figure>
+        </div>
+    </section>
+   
+    <div>
+    <section id="testimonials" class="testimonials section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+            <h2>Team Members</h2>
+            <p>See what our satisfied customers are saying about our exclusive collection of gowns, sarees, and men's clothing.</p>
+        </div>
+    
+        <div class="container testimonials-grid" data-aos="fade-up" data-aos-delay="100">
+            <!-- Testimonial 1 -->
+            <div class="testimonial-item">
+                <img src="assets/image/testimonials-5.jpg" class="testimonial-img" alt="Customer 1">
+                <h3>Ananya mir</h3>
+                <h4>Ceo & Founder</h4>
+                <div class="stars">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    The saree I purchased was absolutely stunning! The fabric and design were exquisite. I received so many compliments.
+                    <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+            </div>
+    
+            <!-- Testimonial 2 -->
+            <div class="testimonial-item">
+                <img src="assets/image/testimonials-4.jpg" class="testimonial-img" alt="Customer 2">
+                <h3>Rohit Verma</h3>
+                <h4>Designer</h4>
+                <div class="stars">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    I loved the men's kurta set. The fit was perfect, and the fabric was stylish and comfortable. Highly recommended!
+                    <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+            </div>
+    
+            <!-- Testimonial 3 -->
+            <div class="testimonial-item">
+                <img src="assets/image/testimonials-1.jpg" class="testimonial-img" alt="Customer 3">
+                <h3>Md. Hasan</h3>
+                <h4>Architect</h4>
+                <div class="stars">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    The gown was magical! It made my engagement day so special. Excellent craftsmanship and beautiful detailing.
+                    <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+            </div>
+        </div>
+    </section>
+</div>
+    
+
+    <footer id="footer" class="footer dark-gray">
+
+        <div class="container footer-top">
+            <div class="row gy-4">
+                <div class="col-lg-4 col-md-6 footer-about">
+                    <a href="index.html" class="logo d-flex align-items-center">
+                        <span class="sitename">UpConstruction</span>
+                    </a>
+                    <div class="footer-contact pt-3">
+                        <p>A108 Adam Street</p>
+                        <p>DHAKA, BANGLADESH</p>
+                        <p class="mt-3"><strong>Phone:</strong> <span>0175548855</span></p>
+                        <p><strong>Email:</strong> <span>ABC123@example.com</span></p>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-2 col-md-3 footer-links">
+                    <h4>Useful Links</h4>
+                    <div class="col-auto">
+                        <div class="social-icon">
+                            <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+                            <a href="#"><i class='bx bxl-whatsapp'></i></a>
+                            <a href="#"><i class='bx bxl-twitter'></i></a>
+                            <a href="#"><i class='bx bxl-github'></i></a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="container copyright text-center mt-4">
+                <p>© <span>Copyright</span> <strong class="px-1 sitename">UpConstruction</strong> <span>All Rights
+                        Reserved</span></p>
+                <div class="credits">
+                    Designed by => MaJhu
+                </div>
+            </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
